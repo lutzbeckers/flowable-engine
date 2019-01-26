@@ -30,6 +30,7 @@ import org.springframework.context.annotation.Import;
 public class FlowableIdmApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
+    	System.out.println("SpringBoot");
         SpringApplication.run(FlowableIdmApplication.class, args);
     }
 
